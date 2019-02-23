@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-cleanedfile = '../features/air_prediction_data.xls'
 originalfile = '../features/data_cleaned_for_prediction.xls'
+outputfile = '../features/air_prediction_data.xls'
 
 original_data = pd.read_excel(originalfile)
 
