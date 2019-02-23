@@ -6,7 +6,7 @@ from cluster_plot import print_cluster_result, plot_cluster # 外部檔案
 
 inputfile = '../features/data_cleaned_for_kmeans.xls'  # 待聚類的數據資料
 
-k = 5  # KMeans要分的類別數，需結合業務的理解和分析來確定客戶的類別數量
+k = 5  # KMeans要分的類別數
 
 data = pd.read_excel(inputfile)
 
