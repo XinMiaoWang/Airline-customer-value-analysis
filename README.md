@@ -159,7 +159,7 @@
       
    - 模型建立:
     
-        Logistic regression
+        [Logistic Regression 筆記](https://hackmd.io/s/By3gDwAwE)
         
         (將數據70%作為訓練樣本，30%作為測試樣本)
 
