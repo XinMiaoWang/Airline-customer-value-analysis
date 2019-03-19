@@ -115,7 +115,9 @@
     
 * **模型建立**
     使用K-Means將客戶分為五類。
-
+    
+    [K-Means Clustering 筆記](https://hackmd.io/s/BJ0YbDAD4)
+    
 * **客戶價值分析**
 ![](https://i.imgur.com/LxOxhbW.jpg)
 ![](https://i.imgur.com/7OMFqUp.jpg)
