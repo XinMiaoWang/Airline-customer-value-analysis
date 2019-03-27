@@ -86,6 +86,7 @@
 
 * **數據清洗 (data_clean_1.py)**
     - Missing value處理:
+    
     由於原始數據量大，這類數據佔的比例較小，對問題影響不大，因此刪除。
     
       (1)刪除第一、二年票價為NULL的紀錄。
@@ -93,6 +94,7 @@
       (2)刪除票價為0、平均折扣率不為0、總飛行公里數大於0的紀錄。
     
     - 特徵處理:
+    
     使用我們根據RFM模型選擇與修改後的五個特徵
     
       (1) 客戶關係長度 = (LOAD_TIME - FFP_DATE) / 30
@@ -114,11 +116,13 @@
        因為這五個特徵的數值範圍、單位都不同，所以需要進行標準化，消除此影響。
     
 * **模型建立**
+
     使用K-Means將客戶分為五類。
     
     [K-Means Clustering 筆記](https://hackmd.io/s/BJ0YbDAD4)
     
 * **客戶價值分析**
+
 ![](https://i.imgur.com/LxOxhbW.jpg)
 ![](https://i.imgur.com/7OMFqUp.jpg)
 ![](https://i.imgur.com/EA4CtM7.jpg)
